@@ -747,7 +747,7 @@ p {
   animation: obj 10s linear forwards;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 1000%;
+  font-size: 800%;
   text-align: center;
 }
 
