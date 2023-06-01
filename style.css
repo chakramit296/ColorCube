@@ -740,18 +740,18 @@ body {
   }
 }
 p {
-  -webkit-animation: hero 10s linear forwards;
-  -moz-animation: hero 10s linear forwards;
-  -ms-animation: hero 10s linear forwards;
-  -o-animation: hero 10s linear forwards;
-  animation: hero 10s linear forwards;
+  -webkit-animation: obj 10s linear forwards;
+  -moz-animation: obj 10s linear forwards;
+  -ms-animation: obj 10s linear forwards;
+  -o-animation: obj 10s linear forwards;
+  animation: obj 10s linear forwards;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 900%;
+  font-size: 1000%;
   text-align: center;
 }
 
-@-webkit-keyframes hero {
+@-webkit-keyframes obj {
   0% {
     transform: translateY(1000%);
   }
@@ -771,7 +771,7 @@ p {
     transform: translateY(-70%);
   }
 }
-@-o-keyframes hero {
+@-o-keyframes obj {
   0% {
     transform: translateY(1000%);
   }
@@ -791,7 +791,7 @@ p {
     transform: translateY(-70%);
   }
 }
-@-moz-keyframes hero {
+@-moz-keyframes obj {
   0% {
     transform: translateY(1000%);
   }
@@ -812,7 +812,7 @@ p {
   }
 }
 
-@keyframes hero {
+@keyframes obj {
   0% {
     transform: translateY(1000%);
   }
